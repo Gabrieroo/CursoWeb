@@ -52,3 +52,17 @@ ul {
     color: #fff;
     background: url(../imagens//divisor.png) repeat-y;
 }
+
+#topo ul .primeiro a {
+    background: none;
+}
+
+#topo ul a:hover {
+    color: #69001d;
+}
+
+#topo ul #selected a {
+    background: #de003e;
+    color: white;
+    cursor: text;
+}
